@@ -17,3 +17,7 @@ resources/
 # Documents
 *.docx
 ~$*.docx
+
+# Temp dirs
+.tmp/
+.piptmp/
