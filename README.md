@@ -3,7 +3,10 @@
 [![ci](https://github.com/bperak/force_dynamics/actions/workflows/ci.yml/badge.svg)](https://github.com/bperak/force_dynamics/actions/workflows/ci.yml)
 
 
-End-to-end pipeline for translation, blind evaluation, and analysis of Force Dynamics (FD) relations across languages.
+Reproducible pipeline accompanying the paper on Force Dynamics in translation, with blind evaluation of human, Google, and LLM outputs across Finnish, Polish, and Croatian.
+
+## Description
+This repository implements the end-to-end workflow used in the study of how Force Dynamics relations are preserved in translation. It generates model translations, runs a structured blind evaluation, and stores results in SQLite for analysis and table/figure generation used in the manuscript.
 
 ## What this repo does
 - Loads seed data from `data/seed/*.csv`
