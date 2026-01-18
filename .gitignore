@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Local outputs
+outputs/
+output/
+processed/
+resources/
+
+# Local database
+*.sqlite
+
+# Documents
+*.docx
+~$*.docx

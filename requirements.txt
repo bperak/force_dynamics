@@ -1,0 +1,8 @@
+﻿pandas
+openpyxl
+pyyaml
+python-dotenv
+openai
+google-generativeai
+matplotlib
+tqdm

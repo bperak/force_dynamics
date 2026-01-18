@@ -1,0 +1,26 @@
+﻿# Configuration for end-to-end pipeline
+# NOTE: This repo is public. Do not commit secrets.
+
+database: data/forcedynamics.sqlite
+seed: 42
+
+models:
+  - provider: openai
+    name: gpt-4o
+  - provider: gemini
+    name: gemini-1.5-pro
+
+data:
+  seed_dir: data/seed
+  languages:
+    - finnish
+    - polish
+    - croatian
+
+prompts:
+  translation_system: "You are an expert translator specializing in the target language. Provide only the translation of the given sentence. Do not provide explanations, evaluations, or any other text."
+  evaluation_system: "You are an expert linguist specializing in cognitive semantics and translation evaluation. You are familiar with Leonard Talmy's (2000) Force Dynamics framework."
+
+output:
+  tables_dir: outputs/tables
+  figures_dir: outputs/figures
