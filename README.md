@@ -1,5 +1,8 @@
 ﻿# Force Dynamics Translation Evaluation
 
+[![ci](https://github.com/bperak/force_dynamics/actions/workflows/ci.yml/badge.svg)](https://github.com/bperak/force_dynamics/actions/workflows/ci.yml)
+
+
 End-to-end pipeline for translation, blind evaluation, and analysis of Force Dynamics (FD) relations across languages.
 
 ## What this repo does
