@@ -18,7 +18,9 @@ models:
   - provider: gemini
     name: gemini-2.5-flash
   - provider: gemini
-    name: gemini-3
+    name: gemini-3-pro
+  - provider: gemini
+    name: gemini-3-flash
 
 data:
   seed_dir: data/seed
