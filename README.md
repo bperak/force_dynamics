@@ -22,12 +22,15 @@ pip install -r requirements.txt
 - Copy `.env.example` to `.env`
 - Fill in `OPENAI_API_KEY` and `GEMINI_API_KEY`
 
-3) Run the pipeline:
+3) Optional config changes:
+- Edit `configs/config.yaml` to switch models, adjust temperatures, or change the SQLite path
+
+4) Run the pipeline:
 ```
 python scripts\run_pipeline.py --config configs\config.yaml
 ```
 
-4) Generate tables/figures:
+5) Generate tables/figures:
 ```
 python scripts\generate_tables.py --config configs\config.yaml
 python scripts\generate_figures.py --config configs\config.yaml
